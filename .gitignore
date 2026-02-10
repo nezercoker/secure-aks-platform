@@ -1,0 +1,16 @@
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfplan
+**/crash.log
+**/.terraform.lock.hcl
+
+# tfvars often contains secrets
+**/*.tfvars
+**/*.tfvars.json
+
+# OS/Editor
+.vscode/
+.DS_Store
+Thumbs.db
