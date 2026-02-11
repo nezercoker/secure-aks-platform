@@ -33,3 +33,11 @@ All infrastructure is provisioned using **Terraform**, and workloads are deploye
 terraform init
 terraform plan
 terraform apply
+
+## Teardown
+
+To remove all deployed Azure resources:
+
+```bash
+cd infra/terraform
+terraform destroy
